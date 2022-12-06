@@ -1,10 +1,10 @@
 package daos;
 
-import com.mysql.jdbc.Driver;
+import com.mysql.cj.jdbc.Driver;
 import java.sql.SQLException;
 import java.sql.*;
 public class Connect {
-    private static final String URL =  "jdbc:mysql://localhost:3306";
+    private static final String URL =  "jdbc:mysql://localhost:3306/pets";
     private static final String USER = "surg";
     private static final String PASS = "Surgles92";
 
